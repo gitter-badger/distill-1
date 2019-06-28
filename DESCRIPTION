@@ -1,0 +1,16 @@
+Package: Distill
+Title: A Distill Website
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Tim",
+           family = "Trice",
+           role = c("aut", "cre"),
+           email = "tim.trice@gmail.com")
+Description: No description for the time being
+Encoding: UTF-8
+LazyData: true
+Depends: 
+  distill, 
+  remotes
+URL: https://github.com/timtrice/distill
+BugReports: https://github.com/timtrice/distill/issues
