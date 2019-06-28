@@ -11,7 +11,8 @@ Encoding: UTF-8
 LazyData: true
 Depends: 
   distill, 
-  remotes
+  remotes, 
+  stylr
 URL: https://github.com/timtrice/distill
 BugReports: https://github.com/timtrice/distill/issues
 License: MIT + file LICENSE
