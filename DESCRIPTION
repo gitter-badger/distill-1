@@ -14,3 +14,4 @@ Depends:
   remotes
 URL: https://github.com/timtrice/distill
 BugReports: https://github.com/timtrice/distill/issues
+License: MIT + file LICENSE
