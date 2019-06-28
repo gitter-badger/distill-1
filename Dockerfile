@@ -8,6 +8,8 @@ ENV ENV_DIR=$DIR
 
 RUN apt-get update \
   && apt-get install -y \
+    libpng-dev \
+    libxml2-dev \
     vim
 
 RUN cd /home/rstudio \
