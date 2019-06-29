@@ -1,0 +1,106 @@
+---
+output: github_document
+---
+
+```{r, eval = FALSE, include = FALSE}
+# Print to markdown without distill templating
+rmarkdown::render("README.Rmd", output_format = "github_document")
+```
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE, 
+  message = FALSE
+)
+```
+
+```{r libraries}
+library(dplyr)
+```
+
+```{r vars}
+# Get URL to repo
+url <- desc::desc_get_urls()
+
+# Get Depends, Imports and Suggests
+packages <- desc::desc_get_deps()
+```
+
+[![minimal R version](https://img.shields.io/badge/R%3E%3D-3.6.0-6666ff.svg)](https://cran.r-project.org/) 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b3a76bf0-ec22-487d-b567-7c2ea7ff4812/deploy-status)](https://app.netlify.com/sites/twitterapi/deploys)
+![Build Status](https://img.shields.io/travis/timtrice/distill/master.svg)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/timtrice/distill/master?filepath=index.Rmd)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+
+# `r desc::desc_get_field("Package")` (`r desc::desc_get_version() `)
+
+## `r desc::desc_get_field("Title") `
+
+### Prerequisites
+
+```{r}
+packages %>% 
+  filter(type == "Imports") %>% 
+  select(-.data$type) %>% 
+  knitr::kable(
+    col.names = c("Package", "Version"), 
+    caption = "* - Version not specified"
+  )
+```
+
+#### Docker
+
+A Docker image of this project is available for use.
+
+  * [timtrice/distill](https://cloud.docker.com/repository/docker/timtrice/distill)
+
+##### Run
+
+Set $LOCAL to your 
+
+```
+LOCAL="/home/timtrice/Projects/ropensci/rrricanes"
+
+docker run \
+  -dti \
+  -e DISABLE_AUTH=true \
+  -p 8787:8787 \
+  --name distill \
+  -v $LOCAL:/home/rstudio/distill \
+  timtrice/distill:release
+```
+
+##### Shell
+
+```
+docker exec -ti distill /bin/bash
+```
+
+
+### Built With
+
+* [R 3.6.0](https://www.r-project.org/) - The R Project for Statistical Computing
+
+### Contributing
+
+Please read [CONTRIBUTING.md](`r url `/blob/master/.github/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+### Code of Conduct
+
+Please note that the '`r desc::desc_get_field("Package") `' project is released with a [Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.
+
+### Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](`r url `/tags). 
+
+### Authors
+
+  * `r format(desc::desc_get_author(), include = c("family", "given", "role"), braces = list(family = c("", ","), role = c("(Role(s): ", ")"))) `
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+### Acknowledgements
+
+`r usethis::use_tidy_thanks() `
