@@ -40,11 +40,11 @@ packages <- desc::desc_get_deps()
 
 ```{r}
 packages %>% 
-  filter(type == "Imports") %>% 
+  filter(type == "Depends") %>% 
   select(-.data$type) %>% 
   knitr::kable(
     col.names = c("Package", "Version"), 
-    caption = "* - Version not specified"
+    caption = "Version not specified"
   )
 ```
 

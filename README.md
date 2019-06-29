@@ -19,26 +19,163 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 
 <caption>
 
-  -   - Version not specified
-        </caption>
-        <thead>
-        <tr>
-        <th style="text-align:left;">
-        Package
-        </th>
-        <th style="text-align:left;">
-        Version
-        </th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
+Version not specified
+
+</caption>
+
+<thead>
+
+<tr>
+
+<th style="text-align:left;">
+
+Package
+
+</th>
+
+<th style="text-align:left;">
+
+Version
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align:left;">
+
+distill
+
+</td>
+
+<td style="text-align:left;">
+
+  - 
+    
+    </td>
     
     </tr>
     
-    </tbody>
+    <tr>
     
-    </table>
+    <td style="text-align:left;">
+    
+    dplyr
+    
+    </td>
+    
+    <td style="text-align:left;">
+    
+      - 
+        
+        </td>
+        
+        </tr>
+        
+        <tr>
+        
+        <td style="text-align:left;">
+        
+        here
+        
+        </td>
+        
+        <td style="text-align:left;">
+        
+          - 
+            
+            </td>
+            
+            </tr>
+            
+            <tr>
+            
+            <td style="text-align:left;">
+            
+            kableExtra
+            
+            </td>
+            
+            <td style="text-align:left;">
+            
+              - 
+                
+                </td>
+                
+                </tr>
+                
+                <tr>
+                
+                <td style="text-align:left;">
+                
+                remotes
+                
+                </td>
+                
+                <td style="text-align:left;">
+                
+                  - 
+                    
+                    </td>
+                    
+                    </tr>
+                    
+                    <tr>
+                    
+                    <td style="text-align:left;">
+                    
+                    sessioninfo
+                    
+                    </td>
+                    
+                    <td style="text-align:left;">
+                    
+                      - 
+                        
+                        </td>
+                        
+                        </tr>
+                        
+                        <tr>
+                        
+                        <td style="text-align:left;">
+                        
+                        styler
+                        
+                        </td>
+                        
+                        <td style="text-align:left;">
+                        
+                          - 
+                            
+                            </td>
+                            
+                            </tr>
+                            
+                            <tr>
+                            
+                            <td style="text-align:left;">
+                            
+                            workflowr
+                            
+                            </td>
+                            
+                            <td style="text-align:left;">
+                            
+                              - 
+                                
+                                </td>
+                                
+                                </tr>
+                                
+                                </tbody>
+                                
+                                </table>
 
 #### Docker
 
