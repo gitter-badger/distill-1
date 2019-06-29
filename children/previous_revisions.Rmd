@@ -1,4 +1,4 @@
-### Previous Revisions
+## Previous Revisions
 
 ```{r previous-revisions}
 input %>% 
