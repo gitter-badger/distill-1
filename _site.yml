@@ -4,9 +4,12 @@ description: |
   Distill
 output_dir: "docs"
 navbar:
-  right:
-    - text: "Home"
-      href: index.html
+  left:
     - text: "About"
       href: about.html
+  right:
+    - icon: fab fa-github
+      href: https://github.com/timtrice/distill
+    - icon: fab fa-docker
+      href: https://cloud.docker.com/repository/docker/timtrice/distill/general
 output: distill::distill_article
