@@ -2,6 +2,8 @@
 #'
 `%>%` <- magrittr::`%>%`
 
+#' Get versions of an RMD
+#' Modified from the workflowr package, credit John Blischak
 self_get_versions <- function(input) {
 
   path <- here::here()
