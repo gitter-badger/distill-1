@@ -10,6 +10,7 @@ Description: No description for the time being
 Encoding: UTF-8
 LazyData: true
 Depends: 
+  desc, 
   distill, 
   dplyr, 
   here, 
