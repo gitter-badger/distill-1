@@ -4,7 +4,22 @@ description: |
   Some additional details about the website
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE
+)
 ```
 
+```{r libraries}
+```
+
+```{r source}
+source(here::here("./R/functions.R"))
+```
+
+```{r settings}
+input <- knitr::current_input()
+```
+
+```{r child = here::here("./children/previous_revisions.Rmd")}
+```
