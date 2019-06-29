@@ -12,8 +12,10 @@ LazyData: true
 Depends: 
   distill, 
   dplyr, 
+  here, 
   kableExtra, 
   remotes, 
+  sessioninfo, 
   styler, 
   workflowr
 URL: https://github.com/timtrice/distill

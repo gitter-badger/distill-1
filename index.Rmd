@@ -24,3 +24,6 @@ input <- knitr::current_input()
 
 ```{r child = here::here("./children/previous_revisions.Rmd")}
 ```
+
+```{r child = here::here("./children/session_info.Rmd")}
+```
