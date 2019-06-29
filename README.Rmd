@@ -56,10 +56,10 @@ A Docker image of this project is available for use.
 
 ##### Run
 
-Set $LOCAL to your 
+Set $LOCAL to your preferred working directory.
 
 ```
-LOCAL="/home/timtrice/Projects/ropensci/rrricanes"
+LOCAL="/home/Projects/distill"
 
 docker run \
   -dti \

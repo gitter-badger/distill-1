@@ -49,7 +49,7 @@ Version
 
 <td style="text-align:left;">
 
-distill
+desc
 
 </td>
 
@@ -65,7 +65,7 @@ distill
     
     <td style="text-align:left;">
     
-    dplyr
+    distill
     
     </td>
     
@@ -81,7 +81,7 @@ distill
         
         <td style="text-align:left;">
         
-        here
+        dplyr
         
         </td>
         
@@ -97,7 +97,7 @@ distill
             
             <td style="text-align:left;">
             
-            kableExtra
+            here
             
             </td>
             
@@ -113,7 +113,7 @@ distill
                 
                 <td style="text-align:left;">
                 
-                remotes
+                kableExtra
                 
                 </td>
                 
@@ -129,7 +129,7 @@ distill
                     
                     <td style="text-align:left;">
                     
-                    sessioninfo
+                    remotes
                     
                     </td>
                     
@@ -145,7 +145,7 @@ distill
                         
                         <td style="text-align:left;">
                         
-                        styler
+                        sessioninfo
                         
                         </td>
                         
@@ -161,7 +161,7 @@ distill
                             
                             <td style="text-align:left;">
                             
-                            workflowr
+                            styler
                             
                             </td>
                             
@@ -173,9 +173,41 @@ distill
                                 
                                 </tr>
                                 
-                                </tbody>
+                                <tr>
                                 
-                                </table>
+                                <td style="text-align:left;">
+                                
+                                usethis
+                                
+                                </td>
+                                
+                                <td style="text-align:left;">
+                                
+                                  - 
+                                    
+                                    </td>
+                                    
+                                    </tr>
+                                    
+                                    <tr>
+                                    
+                                    <td style="text-align:left;">
+                                    
+                                    workflowr
+                                    
+                                    </td>
+                                    
+                                    <td style="text-align:left;">
+                                    
+                                      - 
+                                        
+                                        </td>
+                                        
+                                        </tr>
+                                        
+                                        </tbody>
+                                        
+                                        </table>
 
 #### Docker
 
@@ -186,9 +218,9 @@ A Docker image of this project is available for
 
 ##### Run
 
-Set $LOCAL to your
+Set $LOCAL to your preferred working directory.
 
-    LOCAL="/home/timtrice/Projects/ropensci/rrricanes"
+    LOCAL="/home/Projects/distill"
     
     docker run \
       -dti \
