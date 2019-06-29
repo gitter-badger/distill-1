@@ -18,6 +18,7 @@ Depends:
   remotes, 
   sessioninfo, 
   styler, 
+  usethis, 
   workflowr
 URL: https://github.com/timtrice/distill
 BugReports: https://github.com/timtrice/distill/issues
