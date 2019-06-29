@@ -1,7 +1,7 @@
 ## Session Info
 
 ```{r session-info}
-si <- devtools::session_info()
+si <- sessioninfo::session_info()
 ```
 
 ```{r si-platform}
