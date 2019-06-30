@@ -3,8 +3,8 @@
 version](https://img.shields.io/badge/R%3E%3D-3.6.0-6666ff.svg)](https://cran.r-project.org/)
 [![Netlify
 Status](https://api.netlify.com/api/v1/badges/b3a76bf0-ec22-487d-b567-7c2ea7ff4812/deploy-status)](https://app.netlify.com/sites/twitterapi/deploys)
-![Build
-Status](https://img.shields.io/travis/timtrice/distill/master.svg)
+[![Build
+Status](https://img.shields.io/travis/timtrice/distill/master.svg)](https://travis-ci.org/timtrice/distill)
 ![Docker Cloud Build
 Status](https://img.shields.io/docker/cloud/build/timtrice/distill.svg?style=popout)
 [![Launch
@@ -96,4 +96,3 @@ This project is licensed under the MIT License - see the
 [LICENSE.md](/blob/master/LICENSE.md) file for details
 
 ### Acknowledgements
-
