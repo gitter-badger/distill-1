@@ -74,22 +74,20 @@ Set $LOCAL to your preferred working directory.
 
 ### Contributing
 
-Please read
-[CONTRIBUTING.md](https://github.com/timtrice/distill/blob/master/.github/CONTRIBUTING.md)
-for details on our code of conduct, and the process for submitting pull
+Please read [CONTRIBUTING.md](/blob/master/.github/CONTRIBUTING.md) for
+details on our code of conduct, and the process for submitting pull
 requests to us.
 
 ### Code of Conduct
 
 Please note that the ‘Distill’ project is released with a [Contributor
-Code of Conduct](.github/CODE_OF_CONDUCT.md). By contributing to this
-project, you agree to abide by its terms.
+Code of Conduct](/blob/master/.github/CODE_OF_CONDUCT.md). By
+contributing to this project, you agree to abide by its terms.
 
 ### Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/timtrice/distill/tags).
+available, see the [tags on this repository](/tags).
 
 ### Authors
 
@@ -98,6 +96,6 @@ repository](https://github.com/timtrice/distill/tags).
 ### License
 
 This project is licensed under the MIT License - see the
-[LICENSE.md](LICENSE.md) file for details
+[LICENSE.md](/blob/master/LICENSE.md) file for details
 
 ### Acknowledgements
