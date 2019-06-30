@@ -15,7 +15,7 @@ then
 fi
 
 git add .
-MSG="Rebuild website, $(date)"
+MSG="Rebuild website, $(date) [skip ci]"
 git commit -m "$MSG"
 git push --force $FULL_REPO develop
 Rscript -e 'remotes::install_github("karthik/holepunch");'
