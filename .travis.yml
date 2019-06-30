@@ -4,3 +4,5 @@ language: r
 cache: packages
 script:
   - bash deploy.sh
+on:
+  branch: develop
