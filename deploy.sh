@@ -18,3 +18,5 @@ git add .
 MSG="Rebuild website, $(date)"
 git commit -m "$MSG"
 git push --force $FULL_REPO develop
+Rscript -e 'remotes::install_github("karthik/holepunch");'
+Rscript -e 'holepunch::build_binder();'

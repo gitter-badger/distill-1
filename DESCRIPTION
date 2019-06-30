@@ -1,27 +1,34 @@
+Type: Compendium
 Package: Distill
 Title: A Distill Website
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person(given = "Tim",
            family = "Trice",
            role = c("aut", "cre"),
            email = "tim.trice@gmail.com")
-Description: No description for the time being
+Description: A template website using distill and holepunch to
+    aid in reproducible analysis.
+License: MIT + file LICENSE
+Depends: 
+    desc,
+    distill,
+    dplyr,
+    git2r,
+    here,
+    kableExtra,
+    knitr,
+    magrittr,
+    purrr,
+    remotes,
+    rlang,
+    rmarkdown,
+    sessioninfo,
+    stringr,
+    styler,
+    tools,
+    usethis,
+    utils,
+    workflowr
 Encoding: UTF-8
 LazyData: true
-Depends: 
-  desc, 
-  distill, 
-  dplyr, 
-  here, 
-  kableExtra, 
-  purrr, 
-  remotes, 
-  rlang, 
-  sessioninfo, 
-  styler, 
-  usethis, 
-  workflowr
-URL: https://github.com/timtrice/distill
-BugReports: https://github.com/timtrice/distill/issues
-License: MIT + file LICENSE

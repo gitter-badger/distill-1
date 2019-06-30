@@ -7,11 +7,12 @@ Status](https://api.netlify.com/api/v1/badges/b3a76bf0-ec22-487d-b567-7c2ea7ff48
 Status](https://img.shields.io/travis/timtrice/distill/master.svg)
 ![Docker Cloud Build
 Status](https://img.shields.io/docker/cloud/build/timtrice/distill.svg?style=popout)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/timtrice/distill/master?filepath=index.Rmd)
+[![Launch Rstudio
+Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/timtrice/distill/master?urlpath=rstudio)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 
-# Distill (0.0.0.9000)
+# Distill (0.0.1)
 
 ## A Distill Website
 
@@ -22,14 +23,21 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 | desc        | \*      |
 | distill     | \*      |
 | dplyr       | \*      |
+| git2r       | \*      |
 | here        | \*      |
 | kableExtra  | \*      |
+| knitr       | \*      |
+| magrittr    | \*      |
 | purrr       | \*      |
 | remotes     | \*      |
 | rlang       | \*      |
+| rmarkdown   | \*      |
 | sessioninfo | \*      |
+| stringr     | \*      |
 | styler      | \*      |
+| tools       | \*      |
 | usethis     | \*      |
+| utils       | \*      |
 | workflowr   | \*      |
 
 Version not specified
