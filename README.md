@@ -51,16 +51,11 @@ A Docker image of this project is available for
 
 ##### Run
 
-Set $LOCAL to your preferred working directory.
-
-    LOCAL="/home/Projects/distill"
-    
     docker run \
       -dti \
       -e DISABLE_AUTH=true \
       -p 8787:8787 \
       --name distill \
-      -v $LOCAL:/home/rstudio/distill \
       timtrice/distill:release
 
 ##### Shell
