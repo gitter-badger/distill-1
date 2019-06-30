@@ -5,6 +5,8 @@ version](https://img.shields.io/badge/R%3E%3D-3.6.0-6666ff.svg)](https://cran.r-
 Status](https://api.netlify.com/api/v1/badges/b3a76bf0-ec22-487d-b567-7c2ea7ff4812/deploy-status)](https://app.netlify.com/sites/twitterapi/deploys)
 ![Build
 Status](https://img.shields.io/travis/timtrice/distill/master.svg)
+![Docker Cloud Build
+Status](https://img.shields.io/docker/cloud/build/timtrice/distill.svg?style=popout)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/timtrice/distill/master?filepath=index.Rmd)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
@@ -15,199 +17,22 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 
 ### Prerequisites
 
-<table>
-
-<caption>
+| Package     | Version |
+| :---------- | :------ |
+| desc        | \*      |
+| distill     | \*      |
+| dplyr       | \*      |
+| here        | \*      |
+| kableExtra  | \*      |
+| purrr       | \*      |
+| remotes     | \*      |
+| rlang       | \*      |
+| sessioninfo | \*      |
+| styler      | \*      |
+| usethis     | \*      |
+| workflowr   | \*      |
 
 Version not specified
-
-</caption>
-
-<thead>
-
-<tr>
-
-<th style="text-align:left;">
-
-Package
-
-</th>
-
-<th style="text-align:left;">
-
-Version
-
-</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td style="text-align:left;">
-
-desc
-
-</td>
-
-<td style="text-align:left;">
-
-  - 
-    
-    </td>
-    
-    </tr>
-    
-    <tr>
-    
-    <td style="text-align:left;">
-    
-    distill
-    
-    </td>
-    
-    <td style="text-align:left;">
-    
-      - 
-        
-        </td>
-        
-        </tr>
-        
-        <tr>
-        
-        <td style="text-align:left;">
-        
-        dplyr
-        
-        </td>
-        
-        <td style="text-align:left;">
-        
-          - 
-            
-            </td>
-            
-            </tr>
-            
-            <tr>
-            
-            <td style="text-align:left;">
-            
-            here
-            
-            </td>
-            
-            <td style="text-align:left;">
-            
-              - 
-                
-                </td>
-                
-                </tr>
-                
-                <tr>
-                
-                <td style="text-align:left;">
-                
-                kableExtra
-                
-                </td>
-                
-                <td style="text-align:left;">
-                
-                  - 
-                    
-                    </td>
-                    
-                    </tr>
-                    
-                    <tr>
-                    
-                    <td style="text-align:left;">
-                    
-                    remotes
-                    
-                    </td>
-                    
-                    <td style="text-align:left;">
-                    
-                      - 
-                        
-                        </td>
-                        
-                        </tr>
-                        
-                        <tr>
-                        
-                        <td style="text-align:left;">
-                        
-                        sessioninfo
-                        
-                        </td>
-                        
-                        <td style="text-align:left;">
-                        
-                          - 
-                            
-                            </td>
-                            
-                            </tr>
-                            
-                            <tr>
-                            
-                            <td style="text-align:left;">
-                            
-                            styler
-                            
-                            </td>
-                            
-                            <td style="text-align:left;">
-                            
-                              - 
-                                
-                                </td>
-                                
-                                </tr>
-                                
-                                <tr>
-                                
-                                <td style="text-align:left;">
-                                
-                                usethis
-                                
-                                </td>
-                                
-                                <td style="text-align:left;">
-                                
-                                  - 
-                                    
-                                    </td>
-                                    
-                                    </tr>
-                                    
-                                    <tr>
-                                    
-                                    <td style="text-align:left;">
-                                    
-                                    workflowr
-                                    
-                                    </td>
-                                    
-                                    <td style="text-align:left;">
-                                    
-                                      - 
-                                        
-                                        </td>
-                                        
-                                        </tr>
-                                        
-                                        </tbody>
-                                        
-                                        </table>
 
 #### Docker
 
