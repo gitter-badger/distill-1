@@ -14,7 +14,7 @@ then
   exit 1
 fi
 
-git add .
+git add --force docs
 MSG="Rebuild website, $(date) [skip ci]"
 git commit -m "$MSG"
 git push --force $FULL_REPO develop
