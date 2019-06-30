@@ -16,6 +16,8 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 
 # Distill (0.0.1)
 
+[![Join the chat at https://gitter.im/timtrice_distill/community](https://badges.gitter.im/timtrice_distill/community.svg)](https://gitter.im/timtrice_distill/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## A Distill Website
 
 ### Prerequisites
